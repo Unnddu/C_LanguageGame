@@ -3,7 +3,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 /*
 Date: 2021. 05. 31.
-KIMDAEJIN
+Name: KIMDAEJIN
 */
 #include<stdio.h>
 #include<conio.h>
