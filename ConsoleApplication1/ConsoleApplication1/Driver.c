@@ -3,8 +3,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 /*
 Date: 2021. 05. 31.
-KIMDAEJIN
-> basic struct(All game)
+Name: KIMDAEJIN
 */
 #include<stdio.h>
 #include<conio.h>
@@ -31,12 +30,12 @@ int main(void)
 	{
 		if (_kbhit()) {
 			nKey = _getch();
-			if (nKey == 'q') {
+			if (nKey == 'q') { // quit
 				break;
 			}
 			switch (nKey)
 			{
-			case 'a':
+			case 'a': // left
 				g_Player.nMoveX--;
 				nRemain = g_nLength - (g_Player.nCenter->nX + 1);
 				if (g_Player.nMoveX - g_Player.nCenter->nX < 0 ||
@@ -77,9 +76,9 @@ void Init()
 void Update()
 {
 }
+// print code
 void Render()
 {
-	// print code
 	char string[100] = { 0 };
 	ScreenClear();
 

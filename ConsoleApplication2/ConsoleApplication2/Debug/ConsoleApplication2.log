@@ -1,0 +1,6 @@
+﻿  Frame.c
+C:\Users\north\C_LanguageGame\ConsoleApplication2\ConsoleApplication2\Frame.c(17,20): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\north\C_LanguageGame\ConsoleApplication2\ConsoleApplication2\Frame.c(120,10): warning C4013: 'strncat' undefined; assuming extern returning int
+C:\Users\north\C_LanguageGame\ConsoleApplication2\ConsoleApplication2\Frame.c(154,13): warning C4013: '_kbhit' undefined; assuming extern returning int
+C:\Users\north\C_LanguageGame\ConsoleApplication2\ConsoleApplication2\Frame.c(155,17): warning C4013: '_getch' undefined; assuming extern returning int
+  ConsoleApplication2.vcxproj -> C:\Users\north\C_LanguageGame\ConsoleApplication2\Debug\ConsoleApplication2.exe
