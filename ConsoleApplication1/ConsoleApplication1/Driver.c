@@ -1,5 +1,5 @@
-// Driver.c : This file contains the 
-// 'main' function. Program execution begins and ends there.
+// Driver.c : This file contains the 'main' function. 
+// Program execution begins and ends there.
 #define _CRT_SECURE_NO_WARNINGS
 /*
 Date: 2021. 05. 31.
@@ -35,7 +35,11 @@ int main(void)
 			}
 			switch (nKey)
 			{
+<<<<<<< HEAD
 			case 'a': // left
+=======
+			case 'a': // left move
+>>>>>>> 40f7a88f09c519a981b36bfaa5a267b44da3a996
 				g_Player.nMoveX--;
 				nRemain = g_nLength - (g_Player.nCenter->nX + 1);
 				if (g_Player.nMoveX - g_Player.nCenter->nX < 0 ||
